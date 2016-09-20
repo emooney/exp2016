@@ -19,6 +19,10 @@ app.get('/about', function(req, res) {
   res.send("Youre on the about page!");
 })
 
+app.get('/home', function(req, res) {
+  res.render('home');
+})
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
