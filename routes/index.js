@@ -6,7 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'My App',
     age: '33',
-    name: 'Eric'
+    name: 'Eric',
+    town: 'Towson'
   });
 
 });
